@@ -1,0 +1,39 @@
+name: Atualizar Submódulos
+
+on:
+  push:
+    branches:
+      - main 
+  schedule:
+    - cron: '0 3 * * *'  # Executa diariamente às 3:00 UTC
+  workflow_dispatch:      # Permite execução manual no GitHub
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar repositório com submódulos
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Configurar Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Atualizar submódulos para HEAD remoto
+        run: |
+          git submodule foreach '
+            echo "Atualizando $name...";
+            git fetch origin;
+            branch=$(git symbolic-ref --short HEAD || echo main);
+            git checkout origin/$branch;
+          '
+
+      - name: Commit e Push se necessário
+        run: |
+          git add .
+          git commit -m "Atualiza submódulos para HEAD remoto" || echo "Nenhuma mudança"
+          git push origin main

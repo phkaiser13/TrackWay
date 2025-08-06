@@ -1,0 +1,13 @@
+[submodule "TrackieLink"]
+	path = TrackieLink
+	url = https://github.com/phkaiser13/TrackieLink.git
+[submodule "TrackieLLM"]
+	path = TrackieLLM
+	url = https://github.com/phkaiser13/TrackieLLM.git
+[submodule "Assets&Models"]
+	path = Assets&Models
+	url = https://github.com/phkaiser13/TrackieAssets.git
+[submodule "TrackieOS"]
+	path = TrackieOS
+	url = https://github.com/phkaiser13/TrackieOS.git
+
