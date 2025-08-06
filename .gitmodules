@@ -1,15 +1,15 @@
 [submodule "TrackieLink"]
-	path = TrackieLink
+	path = Ecossystem/TrackieLink
 	url = https://github.com/phkaiser13/TrackieLink.git
 
 [submodule "TrackieLLM"]
-	path = TrackieLLM
+	path = Ecossystem/TrackieLLM
 	url = https://github.com/phkaiser13/TrackieLLM.git
 
 [submodule "AssetsModels"]
-	path = AssetsModels
+	path = Ecossystem/AssetsModels
 	url = https://github.com/phkaiser13/TrackieAssets.git
 
 [submodule "TrackieOS"]
-	path = TrackieOS
+	path = Ecossystem/TrackieOS
 	url = https://github.com/phkaiser13/TrackieOS.git
