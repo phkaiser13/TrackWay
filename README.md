@@ -104,7 +104,9 @@ As tabelas abaixo oferecem uma visão geral de como o ecossistema Trackie se pos
 # LICENCIAMENTO.
 
 *TrackieLLM e suas livrarias são distribuido sobre AGPL-3.0.
+
 *TrackieLINK é distribuido sobre Apache-2.0.
+
 *TrackieAssets é um repositório de treino para learning machines que respeita as licensas originais de seus criadores.
 
  
