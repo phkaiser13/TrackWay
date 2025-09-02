@@ -109,4 +109,8 @@ As tabelas abaixo oferecem uma visão geral de como o ecossistema Trackie se pos
 
 *TrackieAssets é um repositório de treino para learning machines que respeita as licensas originais de seus criadores.
 
+*Trackie-Studio é um projeto de interface Maui distribuido sobre Apache-2.0.
+
+
+
  
