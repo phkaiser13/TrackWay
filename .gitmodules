@@ -10,3 +10,6 @@
 [submodule "Ecossystem/TrackieOS"]
 	path = Ecossystem/TrackieOS
 	url = https://github.com/phkaiser13/TrackieOS.git
+[submodule "Ecossystem/TrackieOS"]
+	path = Ecossystem/Trackie-Studio
+	url = https://github.com/phkaiser13/Trackie-Studio.git
