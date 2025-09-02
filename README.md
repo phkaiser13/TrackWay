@@ -101,13 +101,10 @@ As tabelas abaixo oferecem uma visão geral de como o ecossistema Trackie se pos
 
 ---
 
-### Créditos e Agradecimentos
+# LICENCIAMENTO.
 
-O ecossistema Trackie é construído sobre o trabalho pioneiro de inúmeros pesquisadores, desenvolvedores e comunidades de código aberto. Embora nossos modelos sejam otimizados e treinados especificamente para as nossas aplicações, eles foram desenvolvidos com base nas arquiteturas e no conhecimento compartilhado pelos seguintes projetos fundamentais. Expressamos nossa profunda gratidão a eles:
+TrackieLLM e suas livrarias são distribuido sobre AGPL-3.0.
+TrackieLINK é distribuido sobre Apache-2.0.
+TrackieAssets é um repositório de treino para learning machines que respeita as licensas originais de seus criadores.
 
-*   **YOLOv5nu (Ultralytics):** Pela sua arquitetura de detecção de objetos eficiente e robusta, que serviu de base para nosso sistema de percepção visual.
-*   **MiDaS (Intel - dpt\_levit\_244):** Pelo seu trabalho inovador em estimativa de profundidade monocular, essencial para nossa funcionalidade de medição de distância e navegação segura.
-*   **Google Gemma & Meta Llama:** Pelos seus poderosos e acessíveis Modelos de Linguagem Grandes (LLMs), que inspiraram o desenvolvimento do nosso motor de interpretação contextual e descrição de cenas.
-*   **ONNX Runtime (Microsoft):** Pela ferramenta de inferência de alta performance que permite que nossos modelos rodem de forma eficiente em dispositivos embarcados e de baixo custo.
-
-Este projeto não seria possível sem o espírito colaborativo e a filosofia de conhecimento aberto que impulsionam a comunidade de inteligência artificial. Agradecemos a todos os contribuidores, diretos e indiretos, que tornam a inovação acessível.
+ 
